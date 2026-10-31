@@ -1,0 +1,7 @@
+{
+  "name": "Autoescuela ITV - Gestión de Flota",
+  "description": "PWA para la gestión, control predictivo y escaneo inteligente de la ITV de la flota de vehículos de autoescuela.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

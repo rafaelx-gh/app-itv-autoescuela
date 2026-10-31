@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="lPlateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle with safe padding for maskable -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Outer subtle tech ring -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#334155" stroke-width="6" stroke-dasharray="16 8" />
+
+  <!-- Shield Shape for ITV / Inspection -->
+  <path d="M 256 95 L 365 145 C 365 240 320 325 256 365 C 192 325 147 240 147 145 Z" fill="#1e293b" stroke="#38bdf8" stroke-width="8" stroke-linejoin="round" />
+
+  <!-- Car outline inside shield -->
+  <path d="M 195 240 C 200 215 212 195 256 195 C 300 195 312 215 317 240 L 335 240 C 342 240 348 246 348 254 L 348 285 C 348 290 344 294 339 294 L 333 294 L 333 306 C 333 311 329 315 324 315 L 312 315 C 307 315 303 311 303 306 L 303 294 L 209 294 L 209 306 C 209 311 205 315 200 315 L 188 315 C 183 315 179 311 179 306 L 179 294 L 173 294 C 168 294 164 290 164 285 L 164 254 C 164 246 170 240 177 240 Z" fill="url(#accentGrad)" />
+
+  <!-- Windshield -->
+  <path d="M 208 234 L 220 208 C 223 205 228 204 235 204 L 277 204 C 284 204 289 205 292 208 L 304 234 Z" fill="#0f172a" opacity="0.85" />
+
+  <!-- Headlights -->
+  <circle cx="188" cy="265" r="7" fill="#fef08a" />
+  <circle cx="324" cy="265" r="7" fill="#fef08a" />
+
+  <!-- ITV Valid Badge / Checkmark Circle -->
+  <circle cx="325" cy="335" r="48" fill="url(#badgeGrad)" stroke="#0f172a" stroke-width="8" />
+  <path d="M 307 335 L 319 347 L 345 321" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Autoescuela "L" mini plaque on top right -->
+  <rect x="135" y="110" width="55" height="65" rx="8" fill="url(#lPlateGrad)" stroke="#ffffff" stroke-width="3" />
+  <path d="M 152 125 L 152 160 L 175 160" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
